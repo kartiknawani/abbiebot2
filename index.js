@@ -22,6 +22,12 @@ client.on('message', async msg => {
 		const m = await msg.channel.send("ponging...");
 		m.edit(`Pong! You ponged in ${m.createdTimestamp - msg.createdTimestamp}ms!`);
 	}
+	else if (cum == 'help')
+	{ return msg.channel.send('1: penis ping = tells the ping ')
+		return msg.channel.send('2: penis pong = ping ')
+		return msg.channel.send('3: penis clear []= clears messages')
+		return msg.channel.send('4: fat = no u ')
+	}
 	else if (command === 'clear') {
 		if (msg.member.roles.cache.some(role => role.id === '727514734777204797') || msg.member.hasPermission('MANAGE_MESSAGES')){
 			console.log(args[0])
@@ -61,13 +67,7 @@ client.on('message', msg => {
 	const cum = msg.content.toLowerCase();
 	if(cum.includes('fat')){
 		return msg.channel.send('**NO U** <a:PikachuChair:731488459436458004>',{files:["./unknown.png"]})
-	else if (cum == 'help')
-	{ return msg.channel.send('1: penis ping = tells the ping ')
-		return msg.channel.send('2: penis pong = ping ')
-		return msg.channel.send('3: penis clear []= clears messages')
-		return msg.channel.send('4: fat = no u ')
-	}
-	}
+}
 
 });
 
