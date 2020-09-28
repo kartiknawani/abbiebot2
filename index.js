@@ -64,10 +64,10 @@ client.on('message', msg => {
 	const cum = msg.content.toLowerCase();
 	if(cum.includes('fat')){
 		return msg.channel.send('**NO U** <a:PikachuChair:731488459436458004>',{files:["./unknown.png"]})
+	}
 	else if (cum === 'doggart') {
 		return msg.channel.send('<:talent:729358860854362143><:putin:731287513083150396><:nima2:758358819435708528><:nima:730555860924891239><:naz:758349798712672364><:masterpiece:729405775830712360><:indian:758353020324151366><:foundit:730173437976379493>')
 
-	}
 }
 
 });
