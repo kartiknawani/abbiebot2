@@ -22,7 +22,7 @@ client.on('message', async msg => {
 		const m = await msg.channel.send("ponging...");
 		m.edit(`Pong! You ponged in ${m.createdTimestamp - msg.createdTimestamp}ms!`);
 	}
-	else if (command == 'help')
+	else if (command === 'help')
 	{ return msg.channel.send('1: penis ping = tells the ping ')
 		return msg.channel.send('2: penis pong = ping ')
 		return msg.channel.send('3: penis clear []= clears messages')
