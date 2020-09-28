@@ -61,6 +61,12 @@ client.on('message', msg => {
 	const cum = msg.content.toLowerCase();
 	if(cum.includes('fat')){
 		return msg.channel.send('**NO U** <a:PikachuChair:731488459436458004>',{files:["./unknown.png"]})
+	else if (cum == 'help')
+	{ return msg.channel.send('1: penis ping = tells the ping ')
+		return msg.channel.send('2: penis pong = ping ')
+		return msg.channel.send('3: penis clear []= clears messages')
+		return msg.channel.send('4: fat = no u ')
+	}
 	}
 
 });
