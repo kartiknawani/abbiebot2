@@ -23,11 +23,8 @@ client.on('message', async msg => {
 		m.edit(`Pong! You ponged in ${m.createdTimestamp - msg.createdTimestamp}ms!`);
 	}
 	else if (command === 'help')
-	{ return msg.channel.send('1: penis ping = tells the ping ')
-		return msg.channel.send('2: penis pong = ping ')
-		return msg.channel.send('3: penis clear []= clears messages')
-		return msg.channel.send('4: fat = no u ')
-	}
+	  return msg.channel.send('1: penis ping = tells the ping \n 2: penis pong = ping \n 3: penis clear []= clears messages \n 4: fat = no u')
+
 	else if (command === 'clear') {
 		if (msg.member.roles.cache.some(role => role.id === '727514734777204797') || msg.member.hasPermission('MANAGE_MESSAGES')){
 			console.log(args[0])
