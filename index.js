@@ -63,10 +63,14 @@ client.on('message', msg => {
 	const file = new Discord.MessageAttachment('unknown.png');
 	const cum = msg.content.toLowerCase();
 	if(cum.includes('fat')){
-		return msg.channel.send('**NO U** <a:PikachuChair:731488459436458004>',{files:["./unknown.png"]})
+		return msg.channel.send('**NO U** <a:PikachuChair:731488459436458004>')
 	}
 	else if (cum === 'dogg-art') {
+<<<<<<< HEAD
 		return msg.channel.send('<:talent:729358860854362143><:putin:731287513083150396><:nima2:758358819435708528><:nima:730555860924891239><:naz:758349798712672364><:masterpiece:729405775830712360><:indian:758353020324151366><:foundit:730173437976379493><:huss:760258521538494494>')
+=======
+		return msg.channel.send('<:talent:729358860854362143><:putin:731287513083150396><:nima2:758358819435708528><:nima:730555860924891239><:naz:758349798712672364><:masterpiece:729405775830712360><:indian:758353020324151366><:foundit:730173437976379493><:huss:760258521538494494><:e_:730549672082538527>')
+>>>>>>> 2f8dba65bc40971e578eeed85a3acaa6dbba34fa
 
 }
 
