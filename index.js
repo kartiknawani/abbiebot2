@@ -66,7 +66,7 @@ client.on('message', msg => {
 		return msg.channel.send('**NO U** <a:PikachuChair:731488459436458004>')
 	}
 	else if (cum === 'dogg-art') {
-		return msg.channel.send('<:talent:729358860854362143><:putin:731287513083150396><:nima2:758358819435708528><:nima:730555860924891239><:naz:758349798712672364><:masterpiece:729405775830712360><:indian:758353020324151366><:foundit:730173437976379493><:huss:760258521538494494><:e_:730549672082538527>')
+		return msg.channel.send('<:talent:729358860854362143><:putin:731287513083150396><:nima2:758358819435708528><:nima:730555860924891239><:masterpiece:729405775830712360><:indian:758353020324151366><:huss:760258521538494494><:e_:730549672082538527>')
 	}
 	else if(cum === 'who made this bot'){
 		return msg.channel.send('I was made under MIT License (not copyrighted) by (ironically) An Indian Guy and co-developed by AbbieSofia from the trump server, hereby stating that abbiesofia is indeed a certified developer')
